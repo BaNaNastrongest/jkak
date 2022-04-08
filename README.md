@@ -18,7 +18,7 @@ elseif placeId == 2809202155 then
 end
 spawn(function()
 	while wait() do 
-		print("yGyhgjBUYHohHA#9180 ")
+		print("JayKung#8973 ")
 	end
 end)
 if BF then
@@ -4930,11 +4930,8 @@ if BF then
 						Click()
 					end
 				end
-			end)
-		end)
-	end)
 	
-	local Main = library:Window("ไอเจไอกาก","Blox Fruit 1.18.2.4.5WeP")
+	local Main = library:Window("ไอเจไอกาก","ไอเจหำเล็ก")
 	local AutoFarmTab = Main:Tab("Auto Farm")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
@@ -4944,6 +4941,9 @@ if BF then
 			end
 			fastWait(.05)
 		end
+	end)
+			end)
+		end)
 	end)
 	AutoFarmTab:Toggle("Auto Farm Level", getgenv().Setting["Auto Farm Level"],function(a)
 		Auto_Farm = a
